@@ -2,8 +2,6 @@ sudo apt update -y
 
 sudo apt install openjdk-11-jdk -y
 
-java -version
-
 readlink -f $(which java)
 
 JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
